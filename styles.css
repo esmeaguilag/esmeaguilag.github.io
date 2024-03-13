@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+header {
+    font-family: "Lobster", sans-serif;
+}
+
+body {
+    background-color: #020202;
+    font-family: "Playfair Display";
+}
+
+.conteiner {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.back {
+    padding: 50px 0;
+    background-color: #cf6efb;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    color: #0f0e0e;
+    font-weight: 1500;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: rgb(236, 120, 215);
+
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+@media(max-width:991px) {
+
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .back {
+        padding: 40px o;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #020202;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked~.navbar {
+        display: initial;
+    }
+}
+
+.div-uno {
+    background-color: blueviolet;
+    display: flex;
+    margin-top: 20px;
+}
+
+.imagenes {
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+h6 {
+    color: white;
+}
+
+footer {
+    color: #cf6efb;
+}
+
+.div-ocho{
+    color: white;
+    border: 10px dotted;
+    display: flex;
+    margin-top: 35px;
+
+}
+.color{
+    color: #cf6efb;
+}
+
+.descripcion{
+    text-align: center;
+}
+
+.div-cinco{
+    background-color: blueviolet;
+    display: flex;
+    margin-top: 20px;
+}
+.color-2{
+    color: white;
+}
+
+.generos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.generos ol{
+list-style: none;
+display: flex;
+flex-direction: row;
+}
+.generos ol li{
+    margin: 25px;
+    text-align: center;
+}
+.generos{
+    color: beige;
+
+}
+.div-borde{
+    border: 10px solid  #951ad8;
+    display: flex;
+    margin-top: 35px;
+    color: white;
+    
+} 
+.letras{
+    color: white;
+}
